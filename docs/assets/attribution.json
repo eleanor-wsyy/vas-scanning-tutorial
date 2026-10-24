@@ -1,0 +1,38 @@
+{
+  "source_title": "Living Structure + AI: Four Hands-On Exercises for Exploring and Assessing Wholeness",
+  "source_authors": [
+    "Hongkai Zhang",
+    "Bin Jiang"
+  ],
+  "source_pdf_sha256": "315f3bdf729b036f025e93cc31e8a67eb5255d3e4564bed2977f44a5b830e3cf",
+  "status": "Historical teaching illustrations, not new VAS results or current UI specifications.",
+  "assets": [
+    {
+      "file": "handbook-vas-workflow.jpg",
+      "source_page": 5,
+      "source_image_xref": 69,
+      "width": 3458,
+      "height": 1702,
+      "sha256": "a684eca854b8dc75da05ac38799b2f51df26899a017f2b644710f762c7d0af61",
+      "processing": "Original embedded JPEG bytes extracted; no cropping, recoloring, numerical editing or rescan."
+    },
+    {
+      "file": "handbook-combined-scan.jpg",
+      "source_page": 5,
+      "source_image_xref": 70,
+      "width": 3429,
+      "height": 976,
+      "sha256": "30c6a579cd6f309a8588c64b8572aef4821ebb91ae3bb205cc953e9fc7317edf",
+      "processing": "Original embedded JPEG bytes extracted; no cropping, recoloring, numerical editing or rescan."
+    },
+    {
+      "file": "handbook-separate-scans.jpg",
+      "source_page": 5,
+      "source_image_xref": 71,
+      "width": 3429,
+      "height": 962,
+      "sha256": "4e5810926cf56d7cbd7f897ae824a1f48fdbbc3fda1364fb1e0a0d8299aa0a51",
+      "processing": "Original embedded JPEG bytes extracted; no cropping, recoloring, numerical editing or rescan."
+    }
+  ]
+}

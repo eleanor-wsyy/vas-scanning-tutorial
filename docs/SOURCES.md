@@ -21,3 +21,7 @@ Checked **24 October 2026** against the rendered official webpages, including ex
 ## Scholarly basis
 
 See [References and their role in the experiment](REFERENCES.md). The tutorial now uses author–year citations and an alphabetic References list in the handbook’s style. Distinguish direct methods from theory and related applications; do not cite all handbook references as sources of the present VAS protocol. The Berto article retains its 2022 first-publication year with the issue-year distinction recorded in the reference notes.
+
+## Illustrated edition
+
+Three unchanged embedded JPEGs from handbook p. 5 are now reproduced with credit: the historical website workflow, combined-analysis composite and separate-analysis composites. Extraction hashes and source provenance are in `assets/attribution.json`. Figure 1 flags the historical allowance and Packaging category; Figure 2 flags mismatched source framing and does not claim a controlled joint-versus-separate experiment. These are source-handbook examples, not new scans. See `assets/NOTICE.md` for rights exclusions.

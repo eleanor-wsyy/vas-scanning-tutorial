@@ -59,3 +59,16 @@ Jiang B. and de Rijke C. (2023), Living images: A recursive approach to computin
 Lavdas A. A., Salingaros N. A. and Sussman A. (2021), Visual Attention Software: A new tool for understanding the “subliminal” experience of the built environment, *Applied Sciences*, 11(13), 6197. https://doi.org/10.3390/app11136197
 
 Lavdas A. A. and Salingaros N. A. (2022), Architectural beauty: Developing a measurable and objective scale, *Challenges*, 13(2), 56. https://doi.org/10.3390/challe13020056
+
+
+## 插图示例
+
+![讲义中的VAS网站操作图](assets/handbook-vas-workflow.jpg)
+
+图1：Hongkai Zhang、Bin Jiang讲义第5页的历史操作图。界面和免费次数不代表当前规则；截图中的Packaging也不是本教程对建筑外景的类别建议，按正文规则选择。
+
+![联合扫描示例](assets/handbook-combined-scan.jpg)
+
+![单独扫描示例](assets/handbook-separate-scans.jpg)
+
+图2：同页的联合与单独扫描示例。原例的照片和取景并非完全一致，只用于说明分析形式，不能据此把差异全部归因于扫描方式。保留原百分比与编号；它们不是美感分数，也不是本教程新跑出的结果。图片权利与来源说明见assets/NOTICE.md。

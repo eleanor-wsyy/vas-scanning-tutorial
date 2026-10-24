@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.2.0 — 2026-10-24
+
+- Added one illustrated page with the historical website workflow and combined/separate analysis examples, preserving the two-page main text and reference page.
+- Extracted three original embedded JPEGs without changing pixels, percentages or gaze numbers.
+- Added image provenance and rights notices, and captioned the historical UI/category and unmatched-framing limitations.
+
 ## 1.1.0 — 2026-10-24
 
 - Added five scholarly references, author–year citations and an experiment-method mapping.

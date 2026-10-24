@@ -40,10 +40,10 @@ To rebuild the PDF, install `requirements-build.txt` and run `python scripts/bui
 
 ## Data and rights
 
-No source handbook PDF, private chats, photographs, account data, native VAS reports, or third-party screenshot assets are distributed here. Input photos and VAS outputs remain subject to their respective rights and service terms. Uploading to VAS and republishing to GitHub are separate permissions.
+The illustrated edition includes three unchanged image excerpts from page 5 of Hongkai Zhang and Bin Jiang’s handbook, with attribution and historical-example captions. Their original rights are retained; see [image notice](docs/assets/NOTICE.md). No complete source PDF, private chats, account data or native VAS report archive is distributed. Input photos and VAS outputs remain subject to their respective rights and service terms. Uploading to VAS and republishing to GitHub are separate permissions.
 
 ## Credits
 
 The teaching context is *Living Structure + AI: Four Hands-On Exercises for Exploring and Assessing Wholeness*, by **Hongkai Zhang and Bin Jiang**, especially its VAS section on p. 5 and examples on p. 10. This tutorial is newly written supplementary guidance, not a revision attributed to the handbook authors. Bin Jiang is identified as Shuyuun Wang’s supervisor, not as a coauthor or approver of this repository.
 
-Original text and code in this repository are covered by the [MIT license](LICENSE); third-party materials and trademarks are excluded.
+Original text and code in this repository are covered by the [MIT license](LICENSE); third-party images, materials and trademarks are excluded.

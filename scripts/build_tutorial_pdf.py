@@ -8,7 +8,7 @@ from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.styles import ParagraphStyle
-from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, PageBreak
+from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, PageBreak, Image
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "docs/VAS-Scanning-Tutorial.md"
@@ -53,20 +53,37 @@ def main():
         "subheading": ParagraphStyle("subheading", parent=body, fontName=bold, spaceBefore=4,
                                      spaceAfter=4, keepWithNext=True),
         "bullet": ParagraphStyle("bullet", parent=body, leftIndent=9, firstLineIndent=-7),
+        "caption": ParagraphStyle("caption", parent=body, fontSize=9.2, leading=10.7, spaceAfter=8),
+        "figure_label": ParagraphStyle("figure_label", parent=body, spaceAfter=4, keepWithNext=True),
         "reference": ParagraphStyle("reference", parent=body, leftIndent=14, firstLineIndent=-14,
                                     spaceAfter=7),
     }
     story = []
     in_references = False
     for block in SOURCE.read_text(encoding="utf-8").strip().split("\n\n"):
-        if block.startswith("# "):
+        image_match = re.fullmatch(r"!\[([^]]*)\]\(([^)]+)\)", block)
+        if image_match:
+            image_path = (SOURCE.parent / image_match.group(2)).resolve()
+            image_path.relative_to((SOURCE.parent / "assets").resolve())
+            image = Image(str(image_path))
+            width = A4[0] - 90 - 78
+            image.drawHeight *= width / image.drawWidth
+            image.drawWidth = width
+            image.hAlign = "LEFT"
+            image.keepWithNext = True
+            story.extend([image, Spacer(1, 4)])
+        elif block.startswith("*Figure "):
+            story.append(Paragraph(inline(block), styles["caption"]))
+        elif block.startswith(("**(a)", "**(b)")):
+            story.append(Paragraph(inline(block), styles["figure_label"]))
+        elif block.startswith("# "):
             story.append(Paragraph(inline(block[2:]), styles["title"]))
         elif block.startswith("### "):
             if block == "### References":
                 in_references = True
             story.append(Paragraph(inline(block[4:]), styles["subheading"]))
         elif block.startswith("## "):
-            if block.startswith("## 3.") or block == "## Resources":
+            if block.startswith(("## 3.", "## 5.")) or block == "## Resources":
                 story.append(PageBreak())
             story.append(Paragraph(inline(block[3:]), styles["heading"]))
         elif block.startswith("- "):
