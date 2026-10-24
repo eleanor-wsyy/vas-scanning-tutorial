@@ -1,0 +1,4 @@
+interface:
+  display_name: "VAS Scanning"
+  short_description: "Prepare and verify real 3M VAS image comparisons"
+  default_prompt: "Use $vas-scanning to prepare, document, and interpret an authorized VAS comparison while preserving native evidence."

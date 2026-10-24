@@ -1,0 +1,48 @@
+# VAS Scanning Tutorial
+
+A concise classroom guide and reusable Codex skill for responsible **3M Visual Attention Software (VAS)** analysis of architectural images.
+
+**Prepared by Shuyuun Wang · Supervisor Bin Jiang**  
+Updated 24 October 2026. Independent teaching material; not a 3M product or endorsement.
+
+## Read the tutorial
+
+- [English tutorial](docs/VAS-Scanning-Tutorial.md) · [Two-page PDF](docs/VAS-Scanning-Tutorial.pdf)
+- [中文速查版](docs/VAS-Scanning-Tutorial-zh.md)
+- [Official sources and evidence boundaries](docs/SOURCES.md)
+
+The guide covers input quality, content categories, combined versus separate scans, AOIs, interpretation, and reproducible reporting. **VAS predicts initial visual attention; it does not measure beauty or wholeness.**
+
+## Install the skill
+
+Copy `skills/vas-scanning/` into your Codex skills directory (`~/.codex/skills/` by default). Restart or refresh skill discovery as required by your installation. This repository does not bundle a VAS account or subscription.
+
+Example request:
+
+> Use $vas-scanning to prepare a comparison of these architectural photographs. Check image quality, specify the comparison and AOI protocol, and preserve native evidence. Do not upload or scan until the images and destination are authorized.
+
+The skill is independent of the earlier Michael Diamant source-discovery workflow. It generalizes the scanning safeguards without assuming every image comes from X or requiring a particular montage orientation.
+
+## Local image preflight
+
+Python 3.10+ and Pillow are needed. In a fresh environment:
+
+```sh
+python -m pip install -r requirements.txt
+python skills/vas-scanning/scripts/preflight.py photo-A.jpg photo-B.png --output preflight.json
+python -m unittest discover -s tests -v
+```
+
+The helper **only reads local raster images** and writes a manifest. It reports dimensions, color mode, EXIF orientation, SHA256, duplicate inputs, and official-size warnings. It does not measure sharpness, alter files, upload images, call VAS, or certify experimental validity. PDF is supported by VAS but must be exported and checked visually before this raster-only helper can inspect it.
+
+To rebuild the PDF, install `requirements-build.txt` and run `python scripts/build_tutorial_pdf.py`.
+
+## Data and rights
+
+No source handbook PDF, private chats, photographs, account data, native VAS reports, or third-party screenshot assets are distributed here. Input photos and VAS outputs remain subject to their respective rights and service terms. Uploading to VAS and republishing to GitHub are separate permissions.
+
+## Credits
+
+The teaching context is *Living Structure + AI: Four Hands-On Exercises for Exploring and Assessing Wholeness*, by **Hongkai Zhang and Bin Jiang**, especially its VAS section on p. 5 and examples on p. 10. This tutorial is newly written supplementary guidance, not a revision attributed to the handbook authors. Bin Jiang is identified as Shuyuun Wang’s supervisor, not as a coauthor or approver of this repository.
+
+Original text and code in this repository are covered by the [MIT license](LICENSE); third-party materials and trademarks are excluded.
