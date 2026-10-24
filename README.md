@@ -7,9 +7,10 @@ Updated 24 October 2026. Independent teaching material; not a 3M product or endo
 
 ## Read the tutorial
 
-- [English tutorial](docs/VAS-Scanning-Tutorial.md) · [Two-page PDF](docs/VAS-Scanning-Tutorial.pdf)
+- [English tutorial](docs/VAS-Scanning-Tutorial.md) · [PDF handout](docs/VAS-Scanning-Tutorial.pdf)
 - [中文速查版](docs/VAS-Scanning-Tutorial-zh.md)
 - [Official sources and evidence boundaries](docs/SOURCES.md)
+- [Scholarly references and experiment-method mapping](docs/REFERENCES.md)
 
 The guide covers input quality, content categories, combined versus separate scans, AOIs, interpretation, and reproducible reporting. **VAS predicts initial visual attention; it does not measure beauty or wholeness.**
 

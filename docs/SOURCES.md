@@ -17,3 +17,7 @@ Checked **24 October 2026** against the rendered official webpages, including ex
 **Earlier protocol:** an older near/far workflow specified Other, separate scans, a 2.35× digital crop, building-envelope ROIs and particular R thresholds. Those settings belonged to that experiment. They are not generalized into default VAS requirements. Current comparison work additionally motivates the distinction between native AOI probability, hotspot probability and color-derived coverage.
 
 **Attribution:** Tutorial prepared by Shuyuun Wang. Supervisor: Bin Jiang. Handbook authors: Hongkai Zhang and Bin Jiang. No supervisory approval, coauthorship, institutional endorsement or 3M endorsement is asserted.
+
+## Scholarly basis
+
+See [References and their role in the experiment](REFERENCES.md). The tutorial now uses author–year citations and an alphabetic References list in the handbook’s style. Distinguish direct methods from theory and related applications; do not cite all handbook references as sources of the present VAS protocol. The Berto article retains its 2022 first-publication year with the issue-year distinction recorded in the reference notes.

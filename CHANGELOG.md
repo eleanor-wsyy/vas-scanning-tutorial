@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.1.0 — 2026-10-24
+
+- Added five scholarly references, author–year citations and an experiment-method mapping.
+- Matched the source handbook’s numbered sections, Times typography, Resources/Websites/References organization and centered page numbers.
+- Recorded the Berto online-publication/issue-year distinction without silently changing the source handbook’s 2022 citation.
+
 ## 1.0.0 — 2026-10-24
 
 - Added a concise English tutorial, two-page PDF, and Chinese quick reference.

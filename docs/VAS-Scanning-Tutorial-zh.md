@@ -3,6 +3,10 @@
 **编写 Shuyuun Wang · 导师 Bin Jiang**  
 2026年10月24日
 
+## 实验与教程的文献依据
+
+建筑VAS应用参考 **Lavdas、Salingaros、Sussman（2021）**。此前近远景与R值实验参考 **Lavdas、Salingaros（2022）第3.5与4.3节**，其中R公式和2.35倍数字放大是特定研究方法，不是3M默认设置。**Berto、Barbiero、Salingaros（2022）**是将VAS与恢复性感知对照的相关建筑立面研究。**Alexander（2002–2005）**及 **Jiang、de Rijke（2023）**提供living structure的理论背景，不能据此说VAS已经验证了整体性。
+
 ## 1 明确用途
 
 3M VAS 预测最初约3–5秒的视觉注意，提供热图、热点和预测注视顺序。它不直接测量美感、生命度或整体性，也不是受试者真实眼动记录。与 L-score、B-score、MOST 对照时，允许结果不一致。[1]
@@ -42,3 +46,16 @@
 推荐表述：“在所记录的排版与类别下，VAS预测注意集中于这些部位。”若进一步讨论整体性或美感，需要其他方法与证据支持。
 
 **来源**：[1] [3M VAS FAQs](https://vas.3m.com/faqs)；[2] [3M VAS Support](https://www.3m.com/3M/en_US/visual-attention-software-us/support/)；[3] [How it Works](https://vas.3m.com/howitworks)。核查日期2026年10月24日。原讲义作者 **Hongkai Zhang、Bin Jiang**；本教程是其VAS部分的补充说明，未改写原作者署名。
+
+
+## References
+
+Alexander C. (2002–2005), *The Nature of Order: An Essay on the Art of Building and the Nature of the Universe*, Center for Environmental Structure: Berkeley, CA.
+
+Berto R., Barbiero G. and Salingaros N. A. (2022), Biophilic design of building façades from an evolutionary psychology framework: Visual Attention Software compared to Perceived Restorativeness, *Visions for Sustainability*, 19, 91–124. https://doi.org/10.13135/2384-8677/7054
+
+Jiang B. and de Rijke C. (2023), Living images: A recursive approach to computing the structural beauty of images or the livingness of space, *Annals of the American Association of Geographers*, 113(6), 1329–1347. https://doi.org/10.1080/24694452.2023.2178376
+
+Lavdas A. A., Salingaros N. A. and Sussman A. (2021), Visual Attention Software: A new tool for understanding the “subliminal” experience of the built environment, *Applied Sciences*, 11(13), 6197. https://doi.org/10.3390/app11136197
+
+Lavdas A. A. and Salingaros N. A. (2022), Architectural beauty: Developing a measurable and objective scale, *Challenges*, 13(2), 56. https://doi.org/10.3390/challe13020056
