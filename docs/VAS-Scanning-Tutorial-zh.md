@@ -72,3 +72,10 @@ Lavdas A. A. and Salingaros N. A. (2022), Architectural beauty: Developing a mea
 ![单独扫描示例](assets/handbook-separate-scans.jpg)
 
 图2：同页的联合与单独扫描示例。原例的照片和取景并非完全一致，只用于说明分析形式，不能据此把差异全部归因于扫描方式。保留原百分比与编号；它们不是美感分数，也不是本教程新跑出的结果。图片权利与来源说明见assets/NOTICE.md。
+
+
+## GitHub 仓库
+
+教程和Codex skill：[https://github.com/eleanor-wsyy/vas-scanning-tutorial](https://github.com/eleanor-wsyy/vas-scanning-tutorial)
+
+目前为私有仓库，访问者需要使用已获授权的GitHub账号登录。

@@ -2,6 +2,8 @@
 
 ## 1.2.0 — 2026-10-24
 
+- Added the full clickable GitHub repository URL and its private-access notice to the tutorial.
+
 - Added one illustrated page with the historical website workflow and combined/separate analysis examples, preserving the two-page main text and reference page.
 - Extracted three original embedded JPEGs without changing pixels, percentages or gaze numbers.
 - Added image provenance and rights notices, and captioned the historical UI/category and unmatched-framing limitations.
