@@ -9,6 +9,7 @@ The author–year format and alphabetic ordering follow Hongkai Zhang and Bin Ji
 | Jiang and de Rijke (2023) | Structural-beauty/livingness framework for interpreting the broader exercise; not a 3M metric definition. |
 | Lavdas, Salingaros and Sussman (2021) | Architectural application of VAS and analysis of visual attention patterns. |
 | Lavdas and Salingaros (2022) | Direct source for the earlier R and near/far exercise: Section 3.5 proposes R; Section 4.3 describes 2.35× digital zoom. Local thresholding and ROI implementation remain separately documented choices. |
+| Ro and Huffman (2025) | Direct methodological reference for paired-image VAS analysis, ImageJ building ROIs versus rectangular VAS AOIs, and the author-defined arithmetic-average Visual Attention Coherence score (accepted manuscript pp. 6–8). Not the source of the separate R formula; local component definitions and thresholds require explicit documentation. |
 | 3M official guides | Software operation, input recommendations and native-output meanings; listed under Websites rather than substituting for scholarly references. |
 
 ## References
@@ -23,9 +24,13 @@ Lavdas A. A., Salingaros N. A. and Sussman A. (2021), Visual Attention Software:
 
 Lavdas A. A. and Salingaros N. A. (2022), Architectural beauty: Developing a measurable and objective scale, *Challenges*, 13(2), 56. https://doi.org/10.3390/challe13020056
 
+Ro B. R. and Huffman H. (2025), Architectural design, visual attention, and human cognition: Exploring responses to federal building styles, *Planning Practice & Research*, 40(3), 447–486. https://doi.org/10.1080/02697459.2024.2342755
+
 ## Verification notes
 
 - The two Lavdas papers and Jiang–de Rijke paper were checked against Crossref metadata; the locally retained Lavdas papers also confirm their author lists, R formula and zoom procedure.
 - Berto’s publisher page and article PDF confirm the authors, title, DOI and pp. 91–124. We retain **2022**, as in the source handbook and the PDF’s publication year. The publisher assigns the article to **issue 19 (2023)** and its webpage carries a different initial-online date from the PDF. This is a publication-date/issue-year distinction, not a different paper. Crossref did not return this DOI during this check; the publisher and DOI landing page remain the evidence.
 - Alexander’s four-volume citation is retained from the supplied handbook; no DOI is invented.
 - Source-handbook author credits are preserved separately from the new tutorial’s author/supervisor lines. No coauthorship or supervisory approval is assumed.
+
+- Ro and Huffman: the supplied 40-page accepted manuscript states first online publication on **23 April 2024**. Crossref metadata confirms authors/title/DOI and the formal issue **40(3), 447–486 (2025)**. We use **2025** consistently with that volume/issue citation. The DOI retains 2024 because online publication precedes issue assignment. The method linkage was checked against manuscript pp. 6–8, including Section 2.1 and its continuation.

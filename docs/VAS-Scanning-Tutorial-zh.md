@@ -5,7 +5,7 @@
 
 ## 实验与教程的文献依据
 
-建筑VAS应用参考 **Lavdas、Salingaros、Sussman（2021）**。此前近远景与R值实验参考 **Lavdas、Salingaros（2022）第3.5与4.3节**，其中R公式和2.35倍数字放大是特定研究方法，不是3M默认设置。**Berto、Barbiero、Salingaros（2022）**是将VAS与恢复性感知对照的相关建筑立面研究。**Alexander（2002–2005）**及 **Jiang、de Rijke（2023）**提供living structure的理论背景，不能据此说VAS已经验证了整体性。
+建筑VAS应用参考 **Lavdas、Salingaros、Sussman（2021）**。 **Ro、Huffman（2025）**为联合扫描、建筑AOI和四报告综合分数提供方法参考。此前近远景与R值实验参考 **Lavdas、Salingaros（2022）第3.5与4.3节**，其中R公式和2.35倍数字放大是特定研究方法，不是3M默认设置。**Berto、Barbiero、Salingaros（2022）**是将VAS与恢复性感知对照的相关建筑立面研究。**Alexander（2002–2005）**及 **Jiang、de Rijke（2023）**提供living structure的理论背景，不能据此说VAS已经验证了整体性。
 
 ## 1 明确用途
 
@@ -21,7 +21,7 @@
 
 ## 3 先定比较，再扫描
 
-**联合扫描**把两图放进同一画布，研究共享视野中的注意分布。记录面板位置、间距、尺度；必要时交换左右或上下位置复扫，交换整块面板，不镜像或拉伸内容。两个位置的结果都要报告。
+**联合扫描**把两图放进同一画布，研究共享视野中的注意分布；这与 **Ro、Huffman（2025）**采用的成对图像比较方式相对应。记录面板位置、间距、尺度；必要时交换左右或上下位置复扫，交换整块面板，不镜像或拉伸内容。两个位置的结果都要报告。
 
 **单独扫描**分别描述各图内部的注意分布。两次扫描的百分比不能直接解释为两图之间的注意竞争。网站并排查看两份结果，也不等于联合扫描。
 
@@ -48,6 +48,8 @@
 **来源**：[1] [3M VAS FAQs](https://vas.3m.com/faqs)；[2] [3M VAS Support](https://www.3m.com/3M/en_US/visual-attention-software-us/support/)；[3] [How it Works](https://vas.3m.com/howitworks)。核查日期2026年10月24日。原讲义作者 **Hongkai Zhang、Bin Jiang**；本教程是其VAS部分的补充说明，未改写原作者署名。
 
 
+Ro、Huffman（2025，第2.1节）区分了VAS建筑AOI与ImageJ建筑ROI，并在其研究中采用矩形AOI；这不是所有VAS实验的强制画框规则。其Visual Attention Coherence score将热图、热点、注视顺序和AOI四类报告的指标取算术平均，属于作者提出的综合指标，与Lavdas、Salingaros（2022）的R值不同。采用或改编时，应写清分量、换算、阈值和与原文的差异。
+
 ## References
 
 Alexander C. (2002–2005), *The Nature of Order: An Essay on the Art of Building and the Nature of the Universe*, Center for Environmental Structure: Berkeley, CA.
@@ -59,6 +61,8 @@ Jiang B. and de Rijke C. (2023), Living images: A recursive approach to computin
 Lavdas A. A., Salingaros N. A. and Sussman A. (2021), Visual Attention Software: A new tool for understanding the “subliminal” experience of the built environment, *Applied Sciences*, 11(13), 6197. https://doi.org/10.3390/app11136197
 
 Lavdas A. A. and Salingaros N. A. (2022), Architectural beauty: Developing a measurable and objective scale, *Challenges*, 13(2), 56. https://doi.org/10.3390/challe13020056
+
+Ro B. R. and Huffman H. (2025), Architectural design, visual attention, and human cognition: Exploring responses to federal building styles, *Planning Practice & Research*, 40(3), 447–486. https://doi.org/10.1080/02697459.2024.2342755
 
 
 ## 插图示例

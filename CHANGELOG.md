@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.3.0 — 2026-10-25
+
+- Added Ro and Huffman (2025) as the sixth scholarly reference and linked it to joint scanning, building AOIs and the four-report composite.
+- Distinguished their Visual Attention Coherence score from Lavdas and Salingaros’s R, and recorded the 2024 online / 2025 issue-year distinction.
+
 ## 1.2.0 — 2026-10-24
 
 - Added the full clickable GitHub repository URL and its private-access notice to the tutorial.

@@ -25,3 +25,7 @@ See [References and their role in the experiment](REFERENCES.md). The tutorial n
 ## Illustrated edition
 
 Three unchanged embedded JPEGs from handbook p. 5 are now reproduced with credit: the historical website workflow, combined-analysis composite and separate-analysis composites. Extraction hashes and source provenance are in `assets/attribution.json`. Figure 1 flags the historical allowance and Packaging category; Figure 2 flags mismatched source framing and does not claim a controlled joint-versus-separate experiment. These are source-handbook examples, not new scans. See `assets/NOTICE.md` for rights exclusions.
+
+## Ro and Huffman methodological source
+
+The tutorial additionally cites Ro and Huffman (2025), *Architectural design, visual attention, and human cognition: Exploring responses to federal building styles*, DOI 10.1080/02697459.2024.2342755. The user-supplied accepted manuscript (pp. 6–8) supplies the paired-image approach, ROI/AOI distinction and four-report average. First online: 23 April 2024; formal issue: 2025, 40(3), 447–486. This paper is a method reference, not evidence that every local threshold exactly replicates its implementation. The supplied PDF is not redistributed.

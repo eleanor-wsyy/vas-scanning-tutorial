@@ -11,7 +11,7 @@ Supervisor **Bin Jiang**
 
 ### 1.2 Research background
 
-The architectural VAS approach draws on **Lavdas, Salingaros and Sussman (2021)**. The earlier near/far and R-value exercise follows **Lavdas and Salingaros (2022)**, especially Sections 3.5 and 4.3; its R formula and 2.35× digital zoom are optional study-specific procedures, not 3M defaults. **Berto, Barbiero and Salingaros (2022)** provide related façade research comparing VAS with perceived restorativeness. **Alexander (2002–2005)** and **Jiang and de Rijke (2023)** provide the living-structure context, not validation that VAS measures wholeness.
+The architectural VAS approach draws on **Lavdas, Salingaros and Sussman (2021)**. **Ro and Huffman (2025)** provide a methodological reference for paired-image scans, building AOIs and a four-report Visual Attention Coherence score. The earlier near/far and R-value exercise follows **Lavdas and Salingaros (2022)**, especially Sections 3.5 and 4.3; its R formula and 2.35× digital zoom are optional study-specific procedures, not 3M defaults. **Berto, Barbiero and Salingaros (2022)** provide related façade research comparing VAS with perceived restorativeness. **Alexander (2002–2005)** and **Jiang and de Rijke (2023)** provide the living-structure context, not validation that VAS measures wholeness.
 
 ## 2. Preparing Images
 
@@ -25,7 +25,7 @@ Preserve aspect ratio and avoid generative enhancement. Do not scan old heatmaps
 
 Match image dimensions, resolution, framing and displayed subject scale where feasible. 3M recommends realistic sightlines and wider landscape photographs; do not rotate buildings to force a layout. Record differences in viewpoint, lighting, people and occlusion (3M, Support).
 
-**Combined analysis:** place both images in one fixed montage to study attention in a shared visual field. Record panel boundaries, scale and gap. A position-swapped scan can test robustness; swap whole panels without mirroring or stretching their contents, and report both conditions.
+**Combined analysis:** place both images in one fixed montage to study attention in a shared visual field, as in the comparative approach of **Ro and Huffman (2025)**. Record panel boundaries, scale and gap. A position-swapped scan can test robustness; swap whole panels without mirroring or stretching their contents, and report both conditions.
 
 **Separate analysis:** scan each photograph in its own context. Separate percentages do not directly measure competition between the two images. Viewing two reports side by side is not a joint scan. Freeze the design before seeing results. Figure 2 illustrates the two presentation formats.
 
@@ -39,7 +39,7 @@ Open [VAS Portfolio](https://vas.3m.com/app/portfolio), upload the authorized in
 
 ### 3.2 Define Areas of Interest
 
-AOIs are optional for descriptive viewing. For native regional probabilities, define corresponding **Areas of Interest before scanning**, using the same rule across conditions. Distinguish whole-photo panels, building-only AOIs, automatic hotspots and local post-processing ROIs. Exclude montage gaps. Do not change AOIs after inspecting results to favor an interpretation.
+AOIs are optional for descriptive viewing. For native regional probabilities, define corresponding **Areas of Interest before scanning**, using the same rule across conditions. Distinguish whole-photo panels, building-only AOIs, automatic hotspots and local post-processing ROIs. Exclude montage gaps. Do not change AOIs after inspecting results to favor an interpretation. **Ro and Huffman (2025, Section 2.1)** use rectangular building AOIs and distinguish them from ImageJ building ROIs; these geometries are study choices, not mandatory VAS settings.
 
 ### 3.3 Analyze and preserve results
 
@@ -52,6 +52,8 @@ Submit **Analyze once**. Save the input, settings, AOI geometry or “none,” d
 - **Gaze Sequence:** numbered points indicate predicted order, not a recorded individual scanpath or fixation duration (3M, FAQs).
 
 An entire-image AOI in a separate scan may be near saturation and poorly distinguish buildings. R, color-derived coverage and composite indices require their own cited formulas, thresholds and limitations; they are not native 3M beauty scores. Our implementation choices are not automatically exact replications of the papers.
+
+**Ro and Huffman (2025)** define Visual Attention Coherence as the arithmetic average of measures from four reports: Heatmap, Hotspots, Gaze Sequence and AOI. This author-defined composite differs from **Lavdas and Salingaros’s (2022) R**. If adapting it, document each component, scaling and threshold, and identify departures from the source rather than claiming exact replication.
 
 Submit **original input, preprocessing record, scan settings, native reports and a short interpretation**. Record sources, credits, dimensions, hashes, layout, category, AOIs, date and missing conditions. Verify all numbers and gaze points against native evidence. Label edited presentation figures as composites and retain unchanged reports. Claims about beauty or wholeness require separate evidence.
 
@@ -104,5 +106,7 @@ Jiang B. and de Rijke C. (2023), Living images: A recursive approach to computin
 Lavdas A. A., Salingaros N. A. and Sussman A. (2021), Visual Attention Software: A new tool for understanding the “subliminal” experience of the built environment, *Applied Sciences*, 11(13), 6197. https://doi.org/10.3390/app11136197
 
 Lavdas A. A. and Salingaros N. A. (2022), Architectural beauty: Developing a measurable and objective scale, *Challenges*, 13(2), 56. https://doi.org/10.3390/challe13020056
+
+Ro B. R. and Huffman H. (2025), Architectural design, visual attention, and human cognition: Exploring responses to federal building styles, *Planning Practice & Research*, 40(3), 447–486. https://doi.org/10.1080/02697459.2024.2342755
 
 **Teaching source:** Hongkai Zhang and Bin Jiang, *Living Structure + AI: Four Hands-On Exercises for Exploring and Assessing Wholeness*, especially p. 5 and p. 10. This tutorial supplements that handbook; its authorship is preserved. Figures 1–2 reproduce attributed, unchanged image excerpts from p. 5; original image and interface rights remain with their respective holders.
