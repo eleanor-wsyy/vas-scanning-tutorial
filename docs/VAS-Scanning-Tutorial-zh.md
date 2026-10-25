@@ -82,4 +82,4 @@ Ro B. R. and Huffman H. (2025), Architectural design, visual attention, and huma
 
 教程和Codex skill：[https://github.com/eleanor-wsyy/vas-scanning-tutorial](https://github.com/eleanor-wsyy/vas-scanning-tutorial)
 
-目前为私有仓库，访问者需要使用已获授权的GitHub账号登录。
+仓库访问权限以GitHub当前的可见性设置为准。

@@ -91,7 +91,7 @@ Submit **original input, preprocessing record, scan settings, native reports and
 
 Tutorial and Codex skill repository: [https://github.com/eleanor-wsyy/vas-scanning-tutorial](https://github.com/eleanor-wsyy/vas-scanning-tutorial)
 
-Repository access: private; readers must be signed in with an authorized GitHub account.
+Repository access follows its current GitHub visibility settings.
 
 Official pages checked 24 October 2026. Image-format and size recommendations come from 3M; comparison controls, non-alteration and evidence archiving are research safeguards.
 
