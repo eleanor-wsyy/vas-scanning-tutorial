@@ -29,3 +29,7 @@ Three unchanged embedded JPEGs from handbook p. 5 are now reproduced with credit
 ## Ro and Huffman methodological source
 
 The tutorial additionally cites Ro and Huffman (2025), *Architectural design, visual attention, and human cognition: Exploring responses to federal building styles*, DOI 10.1080/02697459.2024.2342755. The user-supplied accepted manuscript (pp. 6–8) supplies the paired-image approach, ROI/AOI distinction and four-report average. First online: 23 April 2024; formal issue: 2025, 40(3), 447–486. This paper is a method reference, not evidence that every local threshold exactly replicates its implementation. The supplied PDF is not redistributed.
+
+## Pedestrian-viewpoint selection preference
+
+Added at the user’s request on 28 October 2026: prefer architectural photographs from pedestrian eye level and ordinary walking positions, with comparable viewpoint height and angle across conditions. Document aerial, bird’s-eye and strongly tilted views as separate conditions when used. This is a study-design recommendation, not an additional 3M upload requirement.

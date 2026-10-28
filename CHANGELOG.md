@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.3.3 — 2026-10-28
+
+- Added the user’s pedestrian-viewpoint preference to English and Chinese image-selection guidance, with viewpoint matching and documentation of alternative-view conditions.
+
 ## 1.3.2 — 2026-10-28
 
 - Adopted the title Architectural Image Analysis with 3M VAS in the handout, PDF metadata and repository heading; retained file names and existing links.

@@ -17,7 +17,9 @@ The architectural VAS approach draws on **Lavdas, Salingaros and Sussman (2021)*
 
 ## 2. Preparing Images
 
-### 2.1 Image quality
+### 2.1 Image selection and quality
+
+**Pedestrian viewpoint:** prefer photographs taken at eye level from normal walking positions. Match viewpoint height and angle across comparisons where feasible; use aerial, bird’s-eye or strongly tilted views as separately documented study conditions.
 
 Use a clear original in **RGB JPG, PNG or PDF**. 3M recommends at least **600 × 600 pixels**. Smaller images may be automatically resized, affecting results. Check actual pixel dimensions, not only DPI; upscaling cannot recover missing detail. For a montage, also check each source panel: a large canvas does not guarantee clear source content (3M, FAQs; Support).
 
