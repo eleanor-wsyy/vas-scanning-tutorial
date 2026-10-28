@@ -1,4 +1,4 @@
-# VAS Scanning 简明教程
+# 使用 3M VAS 进行建筑图像分析
 
 Shuyun Wang and Bin Jiang  
 LivableCityLAB, Thrust of Urban Governance and Design  

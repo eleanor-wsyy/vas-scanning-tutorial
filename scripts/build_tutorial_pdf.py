@@ -97,7 +97,7 @@ def main():
             style = styles["author"] if block.startswith("Shuyun Wang and Bin Jiang") else styles["reference"] if in_references else body
             story.append(Paragraph(inline(block).replace("  \n", "<br/>").replace("\n", " "), style))
     doc = SimpleDocTemplate(str(OUTPUT), pagesize=A4, rightMargin=78, leftMargin=90,
-                            topMargin=70, bottomMargin=78, title="3M VAS Scanning Tutorial",
+                            topMargin=70, bottomMargin=78, title="Architectural Image Analysis with 3M VAS",
                             author="Shuyun Wang and Bin Jiang", subject="Architectural image comparison and scholarly references",
                             pageCompression=1, invariant=1)
     doc.build(story, onFirstPage=footer, onLaterPages=footer)

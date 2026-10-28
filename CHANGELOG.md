@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.3.2 — 2026-10-28
+
+- Adopted the title Architectural Image Analysis with 3M VAS in the handout, PDF metadata and repository heading; retained file names and existing links.
+
 ## 1.3.1 — 2026-10-28
 
 - Corrected the user’s name to Shuyun Wang and added the supplied email.

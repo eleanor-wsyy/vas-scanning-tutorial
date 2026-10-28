@@ -1,4 +1,4 @@
-# VAS Scanning Tutorial
+# Architectural Image Analysis with 3M VAS
 
 A concise classroom guide and reusable Codex skill for responsible **3M Visual Attention Software (VAS)** analysis of architectural images.
 
