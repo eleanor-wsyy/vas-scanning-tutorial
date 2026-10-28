@@ -2,7 +2,10 @@
 
 A concise classroom guide and reusable Codex skill for responsible **3M Visual Attention Software (VAS)** analysis of architectural images.
 
-**Prepared by Shuyuun Wang · Supervisor Bin Jiang**  
+Shuyun Wang and Bin Jiang  
+LivableCityLAB, Thrust of Urban Governance and Design  
+The Hong Kong University of Science and Technology (Guangzhou), China  
+Email: [swang585@connect.hkust-gz.edu.cn](mailto:swang585@connect.hkust-gz.edu.cn) [binjiang@hkustgz.edu.cn](mailto:binjiang@hkustgz.edu.cn)  
 Updated 24 October 2026. Independent teaching material; not a 3M product or endorsement.
 
 ## Read the tutorial
@@ -44,6 +47,6 @@ The illustrated edition includes three unchanged image excerpts from page 5 of H
 
 ## Credits
 
-The teaching context is *Living Structure + AI: Four Hands-On Exercises for Exploring and Assessing Wholeness*, by **Hongkai Zhang and Bin Jiang**, especially its VAS section on p. 5 and examples on p. 10. This tutorial is newly written supplementary guidance, not a revision attributed to the handbook authors. Bin Jiang is identified as Shuyuun Wang’s supervisor, not as a coauthor or approver of this repository.
+The teaching context is *Living Structure + AI: Four Hands-On Exercises for Exploring and Assessing Wholeness*, by **Hongkai Zhang and Bin Jiang**, especially its VAS section on p. 5 and examples on p. 10. This tutorial is newly written supplementary guidance, not a revision attributed to the handbook authors. The tutorial author line is Shuyun Wang and Bin Jiang, as requested by the user; original handbook and image-source credits remain unchanged.
 
 Original text and code in this repository are covered by the [MIT license](LICENSE); third-party images, materials and trademarks are excluded.

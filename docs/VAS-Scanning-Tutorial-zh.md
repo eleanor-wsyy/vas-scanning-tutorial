@@ -1,6 +1,9 @@
 # VAS Scanning 简明教程
 
-**编写 Shuyuun Wang · 导师 Bin Jiang**  
+Shuyun Wang and Bin Jiang  
+LivableCityLAB, Thrust of Urban Governance and Design  
+The Hong Kong University of Science and Technology (Guangzhou), China  
+Email: [swang585@connect.hkust-gz.edu.cn](mailto:swang585@connect.hkust-gz.edu.cn) [binjiang@hkustgz.edu.cn](mailto:binjiang@hkustgz.edu.cn)  
 2026年10月24日
 
 ## 实验与教程的文献依据

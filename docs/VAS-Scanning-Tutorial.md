@@ -1,7 +1,9 @@
 # 3M VAS Scanning Tutorial
 
-Prepared by **Shuyuun Wang**  
-Supervisor **Bin Jiang**
+Shuyun Wang and Bin Jiang  
+LivableCityLAB, Thrust of Urban Governance and Design  
+The Hong Kong University of Science and Technology (Guangzhou), China  
+Email: [swang585@connect.hkust-gz.edu.cn](mailto:swang585@connect.hkust-gz.edu.cn) [binjiang@hkustgz.edu.cn](mailto:binjiang@hkustgz.edu.cn)
 
 ## 1. Introduction
 

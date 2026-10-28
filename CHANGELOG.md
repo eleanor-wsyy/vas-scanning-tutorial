@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.3.1 — 2026-10-28
+
+- Corrected the user’s name to Shuyun Wang and added the supplied email.
+- Matched the reference header: centered author line, lab, university and blue underlined email links.
+- Preserved Hongkai Zhang and Bin Jiang as original handbook/image-source authors.
+
 ## 1.3.0 — 2026-10-25
 
 - Added Ro and Huffman (2025) as the sixth scholarly reference and linked it to joint scanning, building AOIs and the four-report composite.

@@ -17,7 +17,11 @@ OUTPUT = ROOT / "docs/VAS-Scanning-Tutorial.pdf"
 
 def inline(text):
     text = escape(text)
-    text = re.sub(r"\[([^]\n]+)\]\((https?://[^)]+)\)", r'<link href="\2" color="#222222"><u>\1</u></link>', text)
+    text = re.sub(
+        r"\[([^]\n]+)\]\((https?://[^)]+|mailto:[^)]+)\)",
+        lambda match: '<link href="' + match[2] + '" color="' +
+        ("#0000FF" if match[2].startswith("mailto:") else "#222222") +
+        '"><u>' + match[1] + '</u></link>', text)
     text = re.sub(r"\[([^]\n]+)\]\(SOURCES.md\)", r"\1", text)
     text = re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", text)
     text = re.sub(r"(?<!\*)\*([^*]+)\*(?!\*)", r"<i>\1</i>", text)
@@ -90,11 +94,11 @@ def main():
             for line in block.splitlines():
                 story.append(Paragraph(inline("• " + line[2:]), styles["bullet"]))
         else:
-            style = styles["author"] if block.startswith("Prepared by") else styles["reference"] if in_references else body
+            style = styles["author"] if block.startswith("Shuyun Wang and Bin Jiang") else styles["reference"] if in_references else body
             story.append(Paragraph(inline(block).replace("  \n", "<br/>").replace("\n", " "), style))
     doc = SimpleDocTemplate(str(OUTPUT), pagesize=A4, rightMargin=78, leftMargin=90,
                             topMargin=70, bottomMargin=78, title="3M VAS Scanning Tutorial",
-                            author="Shuyuun Wang", subject="Architectural image comparison and scholarly references",
+                            author="Shuyun Wang and Bin Jiang", subject="Architectural image comparison and scholarly references",
                             pageCompression=1, invariant=1)
     doc.build(story, onFirstPage=footer, onLaterPages=footer)
     print(OUTPUT)
