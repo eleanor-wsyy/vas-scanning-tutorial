@@ -25,11 +25,13 @@ Example request:
 
 > Use $vas-scanning to prepare a comparison of these architectural photographs. Check image quality, specify the comparison and AOI protocol, and preserve native evidence. Do not upload or scan until the images and destination are authorized.
 
+**Default: images only.** The skill now bundles a portable native-report renderer. It produces a light heatmap (exported-heatmap blend weight 0.45), original percentage labels, yellow hotspot outlines and verified 1–4 gaze points with red paths. It does not compute R or C unless requested.
+
 The skill is independent of the earlier Michael Diamant source-discovery workflow. It generalizes the scanning safeguards without assuming every image comes from X or requiring a particular montage orientation.
 
 ## Local image preflight
 
-Python 3.10+ and Pillow are needed. In a fresh environment:
+Python 3.10+ is needed. The full toolkit requires Pillow, NumPy, OpenCV and PyMuPDF; the preflight-only helper still uses just Pillow. In a fresh environment:
 
 ```sh
 python -m pip install -r requirements.txt
@@ -38,6 +40,23 @@ python -m unittest discover -s tests -v
 ```
 
 The helper **only reads local raster images** and writes a manifest. It reports dimensions, color mode, EXIF orientation, SHA256, duplicate inputs, and official-size warnings. It does not measure sharpness, alter files, upload images, call VAS, or certify experimental validity. PDF is supported by VAS but must be exported and checked visually before this raster-only helper can inspect it.
+
+## Native report rendering and opt-in metrics
+
+```sh
+python skills/vas-scanning/scripts/vas.py prepare --report report.zip --case case-01
+# The agent inspects unchanged native evidence and completes case-01/review.json.
+python skills/vas-scanning/scripts/vas.py render --case case-01
+
+# Only when requested by the user:
+python skills/vas-scanning/scripts/vas.py metrics --case case-01 --calculate r
+python skills/vas-scanning/scripts/vas.py metrics --case case-01 --calculate c
+python skills/vas-scanning/scripts/vas.py metrics --case case-01 --calculate both
+```
+
+See [tool commands, review fields and formulas](skills/vas-scanning/references/local-tools.md). R needs a source-bound ROI. C additionally needs the native legend, complete hotspots/gaze and native AOI probabilities. These are researcher-defined estimates, not official 3M beauty scores. Detection suggests existing annotations; native and final visual QA remain necessary. No new scans, uploads or external API calls are performed by these local tools.
+
+User-facing default delivery is the figure; hashes/review records are kept internally. Metrics write separate JSON only on explicit calculation commands, using original native exports rather than the display image. Existing outputs are never silently overwritten.
 
 To rebuild the PDF, install `requirements-build.txt` and run `python scripts/build_tutorial_pdf.py`.
 

@@ -1,0 +1,7 @@
+{
+  "source": "Numeral-only binary masks sampled from visually verified real 3M VAS native gaze markers",
+  "date": "2026-10-06",
+  "contains_source_photographs": false,
+  "contains_account_information": false,
+  "purpose": "Classify native digits, not generate or predict attention positions"
+}

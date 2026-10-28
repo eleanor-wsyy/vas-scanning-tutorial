@@ -1,5 +1,12 @@
 # Changelog
 
+## 2.0.0 — 2026-10-28
+
+- Integrated portable native-report import, default light-heatmap composition and source-bound visual QA.
+- Default output is images only; R and four-report C require an explicit calculation request/command.
+- Added native-ROI R with 72-point sensitivity, four-report C with explicit AOI/legend requirements, and non-overwriting provenance records.
+- Reused native annotation/contour/placement logic without batch-specific paths or private report assets.
+
 ## 1.3.3 — 2026-10-28
 
 - Added the user’s pedestrian-viewpoint preference to English and Chinese image-selection guidance, with viewpoint matching and documentation of alternative-view conditions.
